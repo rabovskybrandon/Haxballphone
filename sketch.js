@@ -243,6 +243,9 @@ player2.bounce(wall14top);
 }
 if(rotationX<-20){
     print("going left");
+if(rotationX>-20 && rotationX<20){
+player.setSpeed=0
+}
 
 //Put what you want to happen when left arrow key is pressed in here
 player.addSpeed(.2,180);
