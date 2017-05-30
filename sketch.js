@@ -223,7 +223,7 @@ player2.bounce(wall14);
 player2.bounce(wall12top);
 player2.bounce(wall14top);
 }
-text("V3",250,250);
+text("V4",250,250);
 //Created all conditions for the reset function after a goal is scored on the red goal
 if(bluekickoff==true){
   player2.bounce(centercircle);
@@ -249,9 +249,6 @@ text("Y: "+rotationY,100,200);
 text("Z: " +rotationZ,100,300);
 
 if(rotationY<-20){
-    print("going left");
-
-
 //Put what you want to happen when left arrow key is pressed in here
 player.addSpeed(.2,180);
 }
