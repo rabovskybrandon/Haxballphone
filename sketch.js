@@ -261,11 +261,11 @@ if(rotationY>20){
 player.addSpeed(.2,0);
 }
 //Put what you want to happen when up arrow key is pressed in here
-if (rotationX>40) {
+if (rotationX>15) {
 player.addSpeed(.2,270);
 }
 ////Put what you want to happen when down arrow key is pressed in here
-if (rotationX<15){
+if (rotationX<40){
   player.addSpeed(.2,90);
 }
 //Put what you want to happen when "a" key is pressed in here
