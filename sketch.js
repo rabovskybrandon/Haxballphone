@@ -223,7 +223,7 @@ player2.bounce(wall14);
 player2.bounce(wall12top);
 player2.bounce(wall14top);
 }
-text("V2",250,250);
+text("V3",250,250);
 //Created all conditions for the reset function after a goal is scored on the red goal
 if(bluekickoff==true){
   player2.bounce(centercircle);
