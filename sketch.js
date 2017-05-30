@@ -241,23 +241,23 @@ player2.bounce(wall14);
 player2.bounce(wall12top);
 player2.bounce(wall14top);
 }
-if(rotationY<20){
+if(rotationX<-20){
     print("going left");
 
 //Put what you want to happen when left arrow key is pressed in here
 player.addSpeed(.2,180);
 }
-if(rotationY>20){
+if(rotationX>20){
 
 //Put what you want to happen when right arrow key is pressed in here
 player.addSpeed(.2,0);
 }
 //Put what you want to happen when up arrow key is pressed in here
-if (rotationX>-15) {
+if (rotationY>-15) {
 player.addSpeed(.2,270);
 }
 ////Put what you want to happen when down arrow key is pressed in here
-if (rotationX<-55){
+if (rotationY<-55){
   player.addSpeed(.2,90);
 }
 //Put what you want to happen when "a" key is pressed in here
