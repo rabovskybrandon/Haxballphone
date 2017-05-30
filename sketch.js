@@ -26,6 +26,9 @@ var centercircle
 var bluekickoff=false
 var redkickoff=false
 var gamelength=30
+var xValue;
+var yValue;
+var zValue;
 
 function setup() {
  createCanvas(800,600);
@@ -241,6 +244,10 @@ player2.bounce(wall14);
 player2.bounce(wall12top);
 player2.bounce(wall14top);
 }
+text("X: "+rotationX,100,100);
+text("Y: "+rotationY,100,200);
+text("Z: " +rotationZ,100,300);
+
 if(rotationX<-20){
     print("going left");
 if(rotationX>-20 && rotationX<20){
