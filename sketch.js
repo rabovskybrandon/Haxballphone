@@ -220,6 +220,7 @@ player2.bounce(wall14);
 player2.bounce(wall12top);
 player2.bounce(wall14top);
 }
+text("V1",250,250);
 //Created all conditions for the reset function after a goal is scored on the red goal
 if(bluekickoff==true){
   player2.bounce(centercircle);
@@ -242,6 +243,7 @@ player2.bounce(wall14top);
 }
 if(rotationY<20){
     print("going left");
+
 //Put what you want to happen when left arrow key is pressed in here
 player.addSpeed(.2,180);
 }
@@ -344,7 +346,9 @@ function gameover(){
   }
 function touchstarted(){
 
+
 }
+
 
   /*var xValue;
   var yValue;
