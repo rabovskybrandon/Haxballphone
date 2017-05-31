@@ -349,7 +349,7 @@ function gameover(){
   if(scorep1==scorep2){
     gamelength = gamelength +15;
   }
-function touchstarted(){
+function touchStarted(){
   Kick(player,ball);
 
 }
