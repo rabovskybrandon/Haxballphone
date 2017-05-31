@@ -309,6 +309,7 @@ if (dist(spriteA.position.x,spriteA.position.y,spriteB.position.x,spriteB.positi
   textSize(40);
   text("Kick!",400,300);
   spriteB.addSpeed(.5, atan2(spriteB.position.y-spriteA.position.y, spriteB.position.x-spriteA.position.x)*(180/3.14159265359))
+  print("Kick function called!");
 }
 }
 //Created kicking fucntion for player 2
@@ -349,10 +350,7 @@ function gameover(){
   if(scorep1==scorep2){
     gamelength = gamelength +15;
   }
-function touchStarted(){
-  Kick(player,ball);
 
-}
 
 
   /*var xValue;
@@ -369,5 +367,8 @@ function touchStarted(){
   text("Z: " +rotationZ,100,300);
 
   }
-*/
+*/}
+function touchStarted(){
+  Kick(player,ball);
+  print("tried to kick!");
 }
