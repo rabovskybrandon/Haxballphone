@@ -350,7 +350,7 @@ function gameover(){
     gamelength = gamelength +15;
   }
 function touchstarted(){
-
+  Kick(player,ball); 
 
 }
 
