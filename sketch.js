@@ -223,7 +223,7 @@ player2.bounce(wall14);
 player2.bounce(wall12top);
 player2.bounce(wall14top);
 }
-text("V9",250,250);
+text("V10",250,250);
 //Created all conditions for the reset function after a goal is scored on the red goal
 if(bluekickoff==true){
   player2.bounce(centercircle);
@@ -366,7 +366,7 @@ if (dist(spriteA.position.x,spriteA.position.y,spriteB.position.x,spriteB.positi
   textSize(40);
   text("Kick!",400,300);
   spriteB.addSpeed(.5, atan2(spriteB.position.y-spriteA.position.y, spriteB.position.x-spriteA.position.x)*(180/3.14159265359))
-  
+
 }
 }
 function touchStarted(){
