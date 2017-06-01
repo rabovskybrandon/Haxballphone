@@ -362,11 +362,11 @@ function gameover(){
 */}
 function Kick(spriteA, spriteB){
 if (dist(spriteA.position.x,spriteA.position.y,spriteB.position.x,spriteB.position.y)<32){
-  bluekickoff=false;
+
   textSize(40);
   text("Kick!",400,300);
   spriteB.addSpeed(.5, atan2(spriteB.position.y-spriteA.position.y, spriteB.position.x-spriteA.position.x)*(180/3.14159265359))
-  print("Kick function called!");
+  
 }
 }
 function touchStarted(){
