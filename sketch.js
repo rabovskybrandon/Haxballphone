@@ -223,7 +223,7 @@ player2.bounce(wall14);
 player2.bounce(wall12top);
 player2.bounce(wall14top);
 }
-text("V10",250,250);
+text("V11",250,250);
 //Created all conditions for the reset function after a goal is scored on the red goal
 if(bluekickoff==true){
   player2.bounce(centercircle);
@@ -369,7 +369,7 @@ if (dist(spriteA.position.x,spriteA.position.y,spriteB.position.x,spriteB.positi
 
 }
 }
-function touchStarted(){
+function mousePressed(){
   Kick(player,ball);
-  print("tried to kick!");
+  text("tried to kick!",50,50);
 }
