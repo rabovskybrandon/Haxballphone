@@ -369,7 +369,7 @@ if (dist(spriteA.position.x,spriteA.position.y,spriteB.position.x,spriteB.positi
 
 }
 }
-function mousePressed(){
+function mouseIsPressed(){
   Kick(player,ball);
   text("tried to kick!",50,50);
 }
